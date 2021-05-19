@@ -7,4 +7,7 @@ package openclose;
  * @versions:1.0
  */
 public interface ICourse {
+    Integer getId();// id
+    String getName();//名字
+    Double getPrice();//价格
 }
